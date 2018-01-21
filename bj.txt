@@ -1,0 +1,21 @@
+1.域名解析服务(Domain Name Service, DNS)
+统一资源定位符(URL)
+http://www.sina.com.cn:8080/web/index.html
+http:// - 协议
+www.sina.com.cn - 域名
+8080 - 端口号
+/web/index.html - (虚拟)路径
+#include <netdb.h>
+struct hostent* gethostbyname (char const* name);
+h_name - 主机官方名
+h_aliases - 别名表
+h_addrtype - 地址类型，AF_INET
+h_length - 地址字节数，4
+h_addr_list - 地址表
+代码：dns.c
+libevent
+
+
+
+
+
